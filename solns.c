@@ -32,11 +32,11 @@ float average(int arr[], int n)
      {
     float sum = 0;
     float avg =0;
-      for(int i=o; i<n; i++)
+    for(int i=o; i<n; i++)
      {
           sum = sum+arr[i];
      }
-       avg =sum/n;
+     avg =sum/n;
      return avg;
      }
   
@@ -56,7 +56,7 @@ int mode(int arr[], int n)
          cnt++;
    }
    }
-  if (cnt>=max)
+   if (cnt>=max)
    {
          count = max;
          max = arr[i];
