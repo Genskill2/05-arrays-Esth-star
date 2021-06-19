@@ -59,14 +59,14 @@ float average=0;
 
    return max;
 }
-     /*prime fac*/
+    
        int factors(int n, int a[])
        {
          int i,j=0;
          for(i=2; i<=n; i++)
            
          { 
-           while(n%2 == 0)
+           while(n%i == 0)
            {
              n=n/i;
              a[j] = i;
