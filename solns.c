@@ -8,7 +8,7 @@
     int max = 0;
     for(int i=0; i<n; i++){
       if(a[i]>max)
-        max = a[i];
+        max= a[i];
     } return max;
     
   }
@@ -28,10 +28,12 @@
     
     
      float average(int arr[], int n)
-    float s=0;
-float avg=0;
-      for( i=o; i<n;i++)
-      { s=s+arr[i];}
+    float sum = 0;
+float avg =0;
+      for(int i=o; i<n;i++)
+      {
+          sum = sum+arr[i];
+      }
        avg =s/n;
      return avg;
     }
@@ -42,17 +44,18 @@ float avg=0;
   int mode(int arr[],int n)
     
      {
-   int cnt = 0, count = 0, i, j, max=0;
+   int i, j, cnt = 0, count = 0, max=0;
 
-   for (i = 0; i<n; i++) {
+   for (i=0; i<n; i++) {
       
       
-      for (j = 0; j < n; j++) {
+      for (j=0; j<n; j++) {
          if (arr[j] == arr[i]){
-         ++cnt;
+         cnt++;
       }
       }
-      if (cnt>=max) {
+      if (cnt>=max)
+      {
          count = max;
          max= arr[i];
       }
