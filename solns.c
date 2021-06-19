@@ -41,7 +41,7 @@ float average=0;
   int mode(int a[],int n)
     
      {
-   int cnt = 0, Count = 0, i, j, max=0;
+   int cnt = 0, count = 0, i, j, max=0;
 
    for (i = 0; i<n; i++) {
       
