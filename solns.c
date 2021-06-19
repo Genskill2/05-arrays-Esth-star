@@ -10,7 +10,8 @@ int max(int a[], int n)
     {
       if(a[i]>max)
         max= a[i];
-    } return max;
+    } 
+    return max;
     
 }
   
