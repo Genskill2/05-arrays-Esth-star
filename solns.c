@@ -5,7 +5,7 @@
 /*max*/
   int max(int a[], int n)
   {
-    int max = a[0];
+    int max = 0;
     for(int i=0; i<n; i++){
       if(a[i]>max)
         max = a[i];
@@ -28,11 +28,11 @@
     
     float average(int a[0], int n)
     float s=0;
-float average=0;
+float avg=0;
       for( i=o; i<n;i++)
       { s=s+a[i];}
-       average =s/n;
-     return average;
+       avg =s/n;
+     return avg;
     }
   
   
