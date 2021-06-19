@@ -26,7 +26,7 @@
  
     
     
-    float average(int a[0], int n)
+    float average(int a[], int n)
     float s=0;
 float avg=0;
       for( i=o; i<n;i++)
