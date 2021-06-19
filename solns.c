@@ -3,7 +3,7 @@
 #include <assert.h>
 
 /*max*/
-  int max(int a[], int n)
+int max(int a[], int n)
 {
     int max = 0;
     for(int i=0; i<n; i++)
@@ -15,7 +15,7 @@
 }
   
   /*min*/
-  int min(int a[], int n)
+int min(int a[], int n)
   {
     int min = a[0];
     for(int i=0; i<n; i++)
@@ -28,7 +28,7 @@
  
     
     
-     float average(int arr[], int n)
+float average(int arr[], int n)
      {
     float sum = 0;
     float avg =0;
@@ -42,8 +42,7 @@
   
   
   /*mode*/
-  
-  int mode(int arr[], int n)
+int mode(int arr[], int n)
     
 {
    int i,j,cnt = 0,count = 0,max=0;
