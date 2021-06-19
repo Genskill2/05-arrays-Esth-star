@@ -14,23 +14,24 @@
   }
   
   /*min*/
-  int min(int a[],int n)
+  int min(int a[], int n)
   {
     int min = a[0];
     for(int i=0; i<n; i++)
     {
       if(a[i]<min)
         min =a[i];
-    }return min;
+    }
+    return min;
   }
  
     
     
-    float average(int a[], int n)
+     float average(int arr[], int n)
     float s=0;
 float avg=0;
       for( i=o; i<n;i++)
-      { s=s+a[i];}
+      { s=s+arr[i];}
        avg =s/n;
      return avg;
     }
@@ -38,7 +39,7 @@ float avg=0;
   
   /*mode*/
   
-  int mode(int a[],int n)
+  int mode(int arr[],int n)
     
      {
    int cnt = 0, count = 0, i, j, max=0;
@@ -47,20 +48,20 @@ float avg=0;
       
       
       for (j = 0; j < n; j++) {
-         if (a[j] == a[i]){
+         if (arr[j] == arr[i]){
          ++cnt;
       }
       }
       if (cnt>=max) {
          count = max;
-         max= a[i];
+         max= arr[i];
       }
    }
 
    return max;
 }
     
-       int factors(int n, int a[])
+       int factors(int n, int arr[])
        {
          int i,j=0;
          for(i=2; i<=n; i++)
@@ -69,7 +70,7 @@ float avg=0;
            while(n%i == 0)
            {
              n=n/i;
-             a[j] = i;
+             arr[j] = i;
              j++;
            }
          }
